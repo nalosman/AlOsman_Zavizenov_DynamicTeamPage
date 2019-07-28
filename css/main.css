@@ -1,0 +1,11 @@
+.hidden {
+  display: none;
+}
+
+h2 {
+  color: darkolivegreen;
+  font-family: 'Prata', serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  
+}
