@@ -3,3 +3,20 @@
 
 console.log('my JS is workin!!!');
 })();
+
+// VARIABLES
+
+const teamData = [
+  [
+
+  ],
+
+  [
+    
+  ]
+]
+
+
+// FUNCTIONS
+
+// EVENTS
