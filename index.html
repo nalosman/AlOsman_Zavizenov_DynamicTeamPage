@@ -4,10 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,600|Prata&display=swap" rel="stylesheet">
-
-
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
   <title>About the Team</title>
@@ -15,34 +13,62 @@
 <body>
   <h1 class="hidden">About the Team</h1>
   <main>
-    <h2>About the Team</h2>
-    <p class="introText">Gleb and Nour are a designer and developer duo based in London, ON. Combined together they have 2 years of experience in the tech industry. Having worked together for the past 3 months on a large project, they've gotten to know eahc other pretty well, now it's your turn!</p>
-
     <section id="initialBox">
+      <div class="center-button">
+        <div class="center-text">Working Mode</div>
+      </div>
+      <div class="initialBox-title">Dream Team</div>
         <!-- <img src="images/nourProfile.jpg" alt="profile shot of nour"> -->
       <div id="leftCont">
-        <div class="nourserious"></div>
-        <h3>Nour Al-Osman</h3>
-        <button class="aboutButton">Learn about Nour</button>
-        
+        <div class="cont-hover left-hover">
+          <h3>Nour Al-Osman</h3>
+          <div class="member-role">Designer</div>
+          <button class="aboutButton">Learn about Nour</button>
+        </div>
       </div>
-
 
       <div id="rightCont">
         <!-- <img src="images/glebProfile.jpg" alt="profile shot of Gleb"> -->
-        <div class="glebserious"></div>
-        <h3>Gleb Zavizenov</h3>
-        <button class="aboutButton">Learn about Gleb</button>
-
+        <div class="cont-hover right-hover">
+          <h3>Gleb Zavizenov</h3>
+          <div class="member-role">Developer</div>
+          <button class="aboutButton">Learn about Gleb</button>
+        </div>
       </div>
+
     </section>
 
     <section id="secondBox">
-      <!-- ARRAY INFO GOES HERE?????? -->
-      <div data-offset="0"  id="thirdImage"></div>
+      <h2 class="secondBox-title">Team Members</h2>
+      <div class="second-container">
+        <div class="controller left-controller">
+          <div class="round-button">
+            <img src="images/left-arrow.svg" alt="left-controller" class="left-arrow controller-arrow">
+          </div>
+        </div>
 
-      <div data-offset="1" id="bioInfo"></div>
+        <div class="info">
+          <div class="info-left">
+            <img src="images/glebHeadshot.jpg" alt="team member headshot">
+          </div>
+          <div class="info-right">
+            <div class="info-right_name">Gleb Zavizenov</div>
+            <div class="info-right_title">Developer</div>
+            <div class="info-right_description">
+              • Best Front-End Developer in the world!<br>
+              • Studying "Interactive Media Design"<br>
+              • Fan of technologies and startups<br>
+              • Favourite TV Serial - "Silicon Valley" <br>
+            </div>
+          </div>
+        </div>
 
+        <div class="controller right-controller">
+          <div class="round-button">
+            <img src="images/right-arrow.svg" alt="left-controller" class="right-arrow controller-arrow">
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
