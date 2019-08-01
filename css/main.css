@@ -109,9 +109,8 @@ h3 {
   border: 5px solid white;
   z-index: 1000;
   top:50%;
-  left:43%;
-  transform: translateX(50%);
-  transform: translateY(-50%);
+  left:50%;
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: center;
